@@ -7,14 +7,13 @@
     margin: 0 auto;
     font-size: 0;
     
-    
-
-}
+  }
 
 .in-block {
 
     font-size: 0; 
     display: inline-block; 
+    background-color: rgba(246, 255, 212, 1);
     
         
 }
@@ -26,14 +25,14 @@
     display: inline-block;
     width: 400px;
     height: 400px;
-    padding: 20px;
-    
+    padding: 20px; 
 
 }
 
 .in-block2 {
     font-size: 0; 
     display: inline-block;
+    background-color: rgba(218, 251, 247, 1);
 }
 
 .in-block2 > div:first-child{
@@ -43,7 +42,7 @@
     display: inline-block;
     width: 800px;
     height: 400px;
-    padding: 20px;
+    padding: 0px;
 }
 
 .in-block2 > div:nth-child(2){
@@ -53,25 +52,34 @@
     display: inline-block;
     width: 400px;
     height: 400px;
-    padding: 20px;
+    padding: 0px;
 }
 
 
 .attachment1 {
     display: block;
     height: 200px;
+    outline: 2px solid black;
+    padding: 20px;
+    overflow: hidden;
       
 }
 
 .attachment2 {
     display: block;
     height: 133.33px;
+    outline: 2px solid black;
+    padding: 20px;
+    overflow: hidden;
 
 }
 
 .in-block3 {
     font-size: 0; 
     display: inline-block;
+    outline: 2px solid black;
+    overflow: hidden;
+    background-color: rgba(249, 230, 249, 1);
     
 }
 
@@ -92,24 +100,60 @@
     display: inline-block;
     width: 800px;
     height: 400px;
-    padding: 20px;
+    padding: 0;
     
 }
 
-.block4 {
+.attachment3 {
     display: block;
-    font-size: 0;
-    box-sizing: border-box;
+    width: 800px;  
+    height: 200px; 
+    outline: 2px solid black; 
+    padding: 20px;
+    
 }
+ 
 
-.block4 > div:first-child{
-    width:800px;
+.in-block3-content > div:nth-child(2){
+    vertical-align: top;
     font-size: 20px;
-    height: 200px;
     outline: 2px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+
+.in-block3-content > div:nth-child(3){
+    float: right;
+    height:200px;
+    width:400px;
+    padding: 0px;
+
+}
+
+.in-block3 {
+    font-size: 0; 
+    padding: 0;
 }
 
 
+
+.in-block4 {
+    display: block; /* Каждый элемент будет на новой строке */
+    padding: 20px;
+    outline: 2px solid black; 
+    height: 100px;
+    
+}
+
+.in-block4 >div{
+    display: block;
+    padding: 20px;
+    outline: 2px solid black;
+    height: 100px;
+    overflow: hidden;
+}
 
 
 
