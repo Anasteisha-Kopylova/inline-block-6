@@ -6,16 +6,12 @@
     background: rgb(231, 187, 218);
     margin: 0 auto;
     font-size: 0;
-    
   }
 
 .in-block {
-
     font-size: 0; 
     display: inline-block; 
     background-color: rgba(246, 255, 212, 1);
-    
-        
 }
 
 .in-block > div {
@@ -26,7 +22,6 @@
     width: 400px;
     height: 400px;
     padding: 20px; 
-
 }
 
 .in-block2 {
@@ -51,7 +46,6 @@
     outline: 2px solid black;
     display: inline-block;
     width: 400px;
-    height: 400px;
     padding: 0px;
 }
 
@@ -62,7 +56,6 @@
     outline: 2px solid black;
     padding: 20px;
     overflow: hidden;
-      
 }
 
 .attachment2 {
@@ -80,56 +73,47 @@
     outline: 2px solid black;
     overflow: hidden;
     background-color: rgba(249, 230, 249, 1);
-    
 }
 
 .in-block3 > div:first-child{
     vertical-align: top;
     font-size: 20px;
-    outline: 2px solid black;
     display: inline-block;
     width: 400px;
     height: 400px;
     padding: 20px;
-    }
+}
 
 .in-block3 > div:nth-child(2){
     vertical-align: top;
-    font-size: 20px;
     outline: 2px solid black;
     display: inline-block;
     width: 800px;
     height: 400px;
     padding: 0;
-    
 }
 
 .attachment3 {
-    display: block;
-    width: 800px;  
+    font-size: 20px;
     height: 200px; 
     outline: 2px solid black; 
     padding: 20px;
-    
 }
  
+.in-block3-content {
+   font-size: 0;
+}
 
 .in-block3-content > div:nth-child(2){
     vertical-align: top;
-    font-size: 20px;
-    outline: 2px solid black;
     display: inline-block;
     width: 400px;
-    height: 200px;
-    padding: 20px;
 }
 
 .in-block3-content > div:nth-child(3){
-    float: right;
     height:200px;
     width:400px;
     padding: 0px;
-
 }
 
 .in-block3 {
@@ -138,21 +122,19 @@
 }
 
 
-
 .in-block4 {
-    display: block; /* Каждый элемент будет на новой строке */
-    padding: 20px;
-    outline: 2px solid black; 
+    display: inline-block; 
+    padding: 0;
     height: 100px;
-    
+    font-size: 0;
 }
 
 .in-block4 >div{
-    display: block;
     padding: 20px;
     outline: 2px solid black;
     height: 100px;
     overflow: hidden;
+    font-size: 20px;
 }
 
 
