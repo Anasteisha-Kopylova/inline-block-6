@@ -8,45 +8,54 @@
     font-size: 0;
   }
 
-.in-block {
-    font-size: 0; 
-    display: inline-block; 
+  .clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+    } 
+
+.in-block1 { 
     background-color: rgba(246, 255, 212, 1);
+    font-family: "Inter", serif; 
+    font-weight: 400;
 }
 
-.in-block > div {
+.in-block1-child {
     vertical-align: top;
-    font-size: 20px;
+    padding: 20px;
     outline: 2px solid black;
-    display: inline-block;
+    font-size: 20px;
     width: 400px;
     height: 400px;
-    padding: 20px; 
+    float: right;
 }
+
 
 .in-block2 {
     font-size: 0; 
     display: inline-block;
     background-color: rgba(218, 251, 247, 1);
+    font-family: Roboto Condensed; 
+    font-weight: 400;
 }
 
 .in-block2 > div:first-child{
     vertical-align: top;
     font-size: 20px;
     outline: 2px solid black;
-    display: inline-block;
     width: 800px;
     height: 400px;
     padding: 0px;
+    float: left;
 }
 
 .in-block2 > div:nth-child(2){
     vertical-align: top;
     font-size: 20px;
     outline: 2px solid black;
-    display: inline-block;
     width: 400px;
     padding: 0px;
+    float: left;
 }
 
 
@@ -64,33 +73,34 @@
     outline: 2px solid black;
     padding: 20px;
     overflow: hidden;
-
 }
 
 .in-block3 {
     font-size: 0; 
-    display: inline-block;
+    float: left;
     outline: 2px solid black;
     overflow: hidden;
     background-color: rgba(249, 230, 249, 1);
+    font-family: Playwrite ES Deco Guides; 
+    font-weight: 400;
 }
 
 .in-block3 > div:first-child{
     vertical-align: top;
     font-size: 20px;
-    display: inline-block;
     width: 400px;
     height: 400px;
     padding: 20px;
+    float: left;
 }
 
 .in-block3 > div:nth-child(2){
     vertical-align: top;
     outline: 2px solid black;
-    display: inline-block;
     width: 800px;
     height: 400px;
     padding: 0;
+    float: left;
 }
 
 .attachment3 {
@@ -106,14 +116,15 @@
 
 .in-block3-content > div:nth-child(2){
     vertical-align: top;
-    display: inline-block;
     width: 400px;
+    float: left;
 }
 
 .in-block3-content > div:nth-child(3){
     height:200px;
     width:400px;
     padding: 0px;
+    float: left;
 }
 
 .in-block3 {
@@ -121,9 +132,8 @@
     padding: 0;
 }
 
-
 .in-block4 {
-    display: inline-block; 
+    display: block; 
     padding: 0;
     height: 100px;
     font-size: 0;
